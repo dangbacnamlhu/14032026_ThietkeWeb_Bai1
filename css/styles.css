@@ -86,3 +86,34 @@ aside img {
     width: 100%;
     margin-bottom: 20px;
 }
+.like-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.date{
+    color:#777;
+    font-size:14px;
+}
+
+.like-btn{
+    background:#1877f2;
+    color:white;
+    border:none;
+    padding:4px 10px;
+    font-size:14px;
+    border-radius:3px;
+    cursor:pointer;
+}
+
+.like-btn:hover{
+    background:#166fe5;
+}
+
+.views{
+    color:#777;
+    font-size:14px;
+}
