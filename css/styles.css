@@ -1,32 +1,33 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #efefef;
+    background: #000;
     color: #222;
     line-height: 1.6;
 }
 
 .site-header,
 header {
-    background-color: #ffffff;
-    border-bottom: 1px solid #dcdcdc;
+    background-color: #000;
+    border-bottom: 1px solid #333;
 }
 
 .top-nav ul,
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: 0;  
     padding: 14px 18px;
     display: flex;
-    justify-content: center;
+    /* Căn chỉnh các mục menu theo chiều ngang. */
+    justify-content: space-between; /* Căn các mục về bên trái. Các lựa chọn khác: center, space-between */
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 12px; /* Khoảng cách giữa các mục menu. Bạn có thể thay đổi giá trị này. */
 }
 
 .top-nav a,
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-size: 13px;
     font-weight: bold;
 }
@@ -38,8 +39,9 @@ nav a:hover {
 
 .page-wrap {
     max-width: 1180px;
-    margin: 24px auto;
+    margin: 16px auto;
     padding: 0 14px;
+    padding: 0 12px;
 }
 
 .content-layout,
